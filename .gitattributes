@@ -1,1 +1,3 @@
 dist/* linguist-vendored=false
+dist/css/* linguist-vendored=false
+dist/js/* linguist-vendored=false
