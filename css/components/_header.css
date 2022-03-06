@@ -1,0 +1,200 @@
+.header {
+	/* position: absolute;
+	left: 0;
+	top: 0; */
+	width: 100%;
+   
+   min-height: 124px;
+	z-index: 3;
+   background-color: var(--black-color);
+   color: var(--white-color);
+}
+
+.header__upper-header {
+   display: flex;
+   justify-content: space-between;
+   font-family: 'PTSans-Regular',sans-serif;
+   font-size: 12px;
+   line-height: 16px;
+   color: var(--gray-color);
+	padding-top: 14px;
+	padding-bottom: 14px;
+   position: relative;
+   padding-left: 14px;
+}
+
+.header__upper-header::before {
+   content:"";
+   position: absolute;
+   top: 14;
+   left: 0;
+   background-image: url('../../img/svg/tel.svg');
+   background-position: center;
+   height: 16px;
+   width: 16px;
+}
+
+.info__tel:hover {
+   color: #fff;
+}
+
+.header__info {
+	display: flex;
+	align-items: center;
+}
+
+.info__item {
+	padding: 0px  17px;
+}
+
+.info__item:not(:last-child) {
+	border-right: 1px solid var(--gray-color);
+}
+
+.header__auth {
+   position: relative;
+   padding-left: 25px;
+}
+
+.auth__link:hover {
+   color: #fff;
+}
+
+.header__auth::before {
+   content:"";
+   position: absolute;
+   top: 16;
+   left: 0;
+   background-image: url('../../img/svg/auth.svg');
+   background-position: center;
+   height: 14px;
+   width: 14px;
+}
+
+.header__lower-header {
+   display: flex;
+   justify-content: space-between;
+   font-family: 'PTSans-Regular',sans-serif;
+   font-size: 14px;
+   line-height: 18px;
+   text-transform: uppercase;
+   color: var(--gray-color);
+   position: relative;
+}
+
+.header__logo {
+   padding: 15px 0px;
+   font-family: 'PostNoBillsJaffna';
+   text-align: center;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 54px;
+   color: #FFFFFF;
+   z-index: 1001;
+}
+
+.header__logo-link {
+   height: 49px;
+   width: 104px;
+}
+
+.header__navigation {
+   display: flex;
+}
+
+.navigation__list {
+   display: flex;
+   align-items: center;
+}
+
+.mobile-item {
+   display: none;
+}
+
+
+
+.navigation__link {
+   padding: 33px 20px;
+}
+
+.header__link {
+   display: flex;
+   align-items: center;
+}
+
+.link__item:not(:last-child) {
+	margin: 0px 15px;
+}
+
+.link__link {
+   display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+   height: 45px;
+   width: 45px;
+   transition: 0.3s;
+}
+
+.link__link:hover {
+   background-color: #1F1F1F;
+   border-radius: 100%;
+}
+
+.social__link--baslet {
+   background-image: url('../../img/svg/basket.svg');
+   background-position: 47%;
+}
+
+.social__link--search {
+   background-image: url('../../img/search.png');
+   background-size: 40%;
+}
+
+.search-form__form {
+   position: absolute;
+   height: 40px;
+   right: -100%;
+   bottom: -40px;
+   display: flex;
+   transition: all 0.3s ease 0s;
+}
+
+.search-form__form.search-form-active {
+   right: 0;
+}
+
+.search-form__input {
+   width: 250px;
+}
+
+.search-form__button {
+   background-image: url('../../img/search.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 40%;
+}
+
+.navigation__form {
+   margin: 0px auto;
+   width: 70%;
+   display: flex;
+}
+
+.navigation__input {
+   width: 85%;
+}
+
+.navigation__button {
+   background-color: #333333;
+   width: auto;
+   text-transform: uppercase;
+}
+
+@media (min-width:768px) { 
+   .navigation__link:hover {
+   background-color: #1F1F1F;
+   color: #fff;
+ } 
+};

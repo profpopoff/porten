@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'PlayfairDisplay-Bold';
+   src: url('../fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff'),
+        url('../fonts/playfairdisplay-variablefont_wght-webfont.svg#playfair_displayregular') format('svg');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Regular';
+   src: url('../fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff'),
+        url('../fonts/playfairdisplay-variablefont_wght-webfont.svg#playfair_displayregular') format('svg');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PostNoBillsJaffna';
+	src: url('../fonts/postnobillsjaffna-bold-webfont.woff2') format('woff2'),
+        url('../fonts/postnobillsjaffna-bold-webfont.woff') format('woff'),
+        url('../fonts/postnobillsjaffna-bold-webfont.svg#post_no_bills_jaffnabold') format('svg');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans-Bold';
+   src: url('../fonts/ptsans-bold-webfont.woff2') format('woff2'),
+        url('../fonts/ptsans-bold-webfont.woff') format('woff'),
+        url('../fonts/ptsans-bold-webfont.svg#pt_sansbold') format('svg');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans-Regular';
+   src: url('../fonts/ptsans-regular-webfont.woff2') format('woff2'),
+        url('../fonts/ptsans-regular-webfont.woff') format('woff'),
+        url('../fonts/ptsans-regular-webfont.svg#pt_sansregular') format('svg');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+

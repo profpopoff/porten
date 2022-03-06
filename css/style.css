@@ -1,0 +1,18 @@
+@import "./_normalize.css";
+@import "./_fonts.css";
+@import "./_variables.css";
+@import "./_vendor.css";
+@import "./_global.css";
+@import "./_overall.css";
+
+
+/* components */
+@import "./components/_header.css";
+@import "./components/_hero.css";
+@import "./components/_collection-updates.css";
+@import "./components/_popular-collection.css";
+@import "./components/_updates.css";
+@import "./components/_brands.css";
+@import "./components/_footer.css";
+
+@import "./_media.css";
