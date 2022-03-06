@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://profpopoff.github.io/porten",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
