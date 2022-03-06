@@ -1,0 +1,44 @@
+.brands {
+   width: 100%;
+   min-height: 356px;
+   background-color: #0F0F0F;
+   color: var(--white-color);
+}
+
+.brands__title {
+   padding-top: 60px;
+   padding-bottom: 80px;
+   font-family: 'PlayfairDisplay-Bold', 'Times New Roman', Times, serif;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--white-color);
+   position: relative;
+}
+
+.brands__title::after {
+   content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+	background: var(--white-color);
+	width: 120px;
+	height: 1px;
+}
+
+.brands__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.brands__item {
+   width: 240px;
+   margin-right: 29px;
+}
+
+.brands__item {
+   margin-bottom: 30px;
+}

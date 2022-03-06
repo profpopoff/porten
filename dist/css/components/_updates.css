@@ -1,0 +1,103 @@
+.updates {
+   width: 100%;
+   min-height: 1290px;
+   background-color: var(--black-color);
+   color: var(--white-color);
+}
+
+.updates__container {
+   max-width: 1250px;
+}
+
+.updates__title {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   font-family: 'PlayfairDisplay-Bold', 'Times New Roman', Times, serif;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--white-color);
+   position: relative;
+}
+
+.updates__title::after {
+   content: "";
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 80px;
+	background: var(--white-color);
+	width: 120px;
+	height: 1px;
+}
+
+.updates__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+.updates__item {
+   height:405px;
+   width:260px;
+   margin: 0px 11.5px 40px;
+   position: relative;
+}
+
+.updates__bg::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background-color: black;
+   background-image: url('../../img/svg/basket.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 50%;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+   z-index: 100;
+}
+
+.updates__bg {
+   background-color: #191B1C;
+   height:325px;
+   width:100%;
+   position: relative;
+   margin-bottom: 25px; 
+}
+
+.updates__img {
+   position: absolute;
+   margin: auto;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+}
+
+.updates__item-title {
+   font-family: 'PlayfairDisplay-Regular', 'Times New Roman', Times, serif;
+   font-size: 18px;
+   line-height: 24px;
+   color: var(--white-color);
+}
+
+.updates__item:hover .updates__bg::before {
+   opacity: 0.8;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.updates__price {
+   font-family: 'PlayfairDisplay-Regular', 'Times New Roman', Times, serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 21px;
+   color: #D0D0D0;
+   margin-top: 10px;
+}
